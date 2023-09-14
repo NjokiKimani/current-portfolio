@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "Projects/eBike_SS.jpg",
+    "description": "This is a project made to learn the latest languages by building an App.",
+    "skills": ["React", "Javascript", "next.js"],
+    "demo": "https://urban-ebike.netlify.app/",
+    "source": "https://github.com/NjokiKimani/Product-Landing-Page"
+  },
+  {
+    "title": "Project A",
+    "imageSrc": "Projects/eBike_SS.jpg",
+    "description": "This is a project made to learn the latest languages by building an App.",
+    "skills": ["React", "VITE", "next.js"],
+    "demo": "https://urban-ebike.netlify.app/",
+    "source": "https://github.com/NjokiKimani/Product-Landing-Page"
+  },
+    {
+        "title": "Project A",
+        "imageSrc": "Projects/eBike_SS.jpg",
+        "description": "This is a project made to learn the latest languages by building an App.",
+        "skills": ["React", "next.js"],
+        "demo": "https://urban-ebike.netlify.app/",
+        "source": "https://github.com/NjokiKimani/Product-Landing-Page"
+    }
+]

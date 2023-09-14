@@ -1,5 +1,7 @@
 import React from 'react'
 import './Projects.css'
+import projects from '../../Data/projects.json'
+import { ProjectCard } from './ProjectCard';
 
 function Projects() {
   return (
@@ -11,14 +13,13 @@ function Projects() {
         potential within dynamic digital spaces. I really enjoy solving problems
         with clean scalable solutions.
       </span>
-      <div className="projectImages">
-        <img src="" alt="" className="projectImage" />
-        <img src="" alt="" className="projectImage" />{" "}
-        <img src="" alt="" className="projectImage" />{" "}
-        <img src="" alt="" className="projectImage" />{" "}
-        <img src="" alt="" className="projectImage" />{" "}
-        <img src="" alt="" className="projectImage" />
-      </div>
+<div className='projectsContainer'>
+    {projects.map((project, id) => {
+        return(
+        <ProjectCard key={id} project={project} />
+   ) })}
+</div>
+<button className='projectsBtn'>See More</button>
     </section>
   );
 }
